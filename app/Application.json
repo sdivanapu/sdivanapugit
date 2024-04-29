@@ -1,0 +1,10 @@
+{
+  "accessRoles": [],
+  "applicationId": "2d84ec89-a90d-4e80-b7b5-6d0afd61ca79",
+  "applicationName": "checkcheck",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
+  "icon": "LogoIconOnlyConnectComponent",
+  "sections": []
+}
