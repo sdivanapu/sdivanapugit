@@ -6,5 +6,13 @@
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyConnectComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "section1",
+      "icon": "Alert Triangle Filled",
+      "sections": []
+    }
+  ]
 }
