@@ -6,7 +6,32 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "input",
+            "controlId": "6ed98199-323b-409a-9612-92d1714390dd",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "variables": [
+              {
+                "name": "firstname_var"
+              }
+            ],
+            "labelText": "Name",
+            "labelValue": "",
+            "isMultiLine": false,
+            "isDisabled": false,
+            "layoutSize": null,
+            "useEnterBroadcast": false,
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },
