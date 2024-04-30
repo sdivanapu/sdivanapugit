@@ -10,8 +10,9 @@
     {
       "accessRoles": null,
       "privileges": null,
-      "name": "section1",
+      "name": "newsection3",
       "icon": "Alert Triangle Filled",
+      "pageDefinitionId": "52d56e3d-f044-4401-b698-923beec539b3",
       "sections": []
     }
   ]
