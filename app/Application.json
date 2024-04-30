@@ -6,19 +6,5 @@
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-  "sections": [
-    {
-      "name": "Editedtest_section_504988",
-      "icon": "Earth",
-      "pageDefinitionId": "9a0c036a-2fee-4da7-ba07-be090c4ff8f0",
-      "sections": [],
-      "accessRoles": [
-        "Administrator",
-        "Xactly",
-        "Sales Manager"
-      ],
-      "privileges": null,
-      "description": "Automation Text section"
-    }
-  ]
+  "sections": []
 }
