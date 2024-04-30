@@ -8,12 +8,17 @@
   "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
   "sections": [
     {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "test_section_504988",
-      "icon": "Snapshot",
+      "name": "Editedtest_section_504988",
+      "icon": "Earth",
       "pageDefinitionId": "9a0c036a-2fee-4da7-ba07-be090c4ff8f0",
-      "sections": []
+      "sections": [],
+      "accessRoles": [
+        "Administrator",
+        "Xactly",
+        "Sales Manager"
+      ],
+      "privileges": null,
+      "description": "Automation Text section"
     }
   ]
 }
