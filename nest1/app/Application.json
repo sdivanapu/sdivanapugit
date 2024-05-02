@@ -20,6 +20,13 @@
         "Sales Manager"
       ],
       "privileges": null
+    },
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "newsection3",
+      "icon": "Alert Triangle Filled",
+      "sections": []
     }
   ]
 }
