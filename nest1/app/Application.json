@@ -1,32 +1,11 @@
 {
   "accessRoles": [],
-  "applicationId": "b7bb7579-64d4-4a06-aede-ca69f62c2f9c",
+  "applicationId": "f911ead0-c422-4744-adc5-ef8e851447d6",
   "applicationName": "gitHubSubPathsRegression1",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitSubpath": "nest1",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
-  "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-  "sections": [
-    {
-      "name": "Editedtest_section_976848",
-      "icon": "Earth",
-      "pageDefinitionId": "1bd95fe0-7ad6-431a-bc44-307b857d33fc",
-      "description": "Automation Text section",
-      "sections": [],
-      "accessRoles": [
-        "Administrator",
-        "Xactly",
-        "Sales Manager"
-      ],
-      "privileges": null
-    },
-    {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "newsection3",
-      "icon": "Alert Triangle Filled",
-      "sections": []
-    }
-  ]
+  "icon": "LogoIconOnlyCreditAssignmentComponent",
+  "sections": []
 }
