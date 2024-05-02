@@ -9,12 +9,17 @@
   "icon": "LogoIconOnlyCreditAssignmentComponent",
   "sections": [
     {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "test_section_747000",
-      "icon": "Rocket",
+      "name": "Editedtest_section_747000",
+      "icon": "Earth",
       "pageDefinitionId": "040a1df2-23c8-4375-9f6b-c4fe6321c1e0",
-      "sections": []
+      "sections": [],
+      "accessRoles": [
+        "Administrator",
+        "Xactly",
+        "Sales Manager"
+      ],
+      "privileges": null,
+      "description": "Automation Text section"
     }
   ]
 }
