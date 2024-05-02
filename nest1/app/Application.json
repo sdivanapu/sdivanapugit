@@ -1,7 +1,7 @@
 {
   "accessRoles": [],
   "applicationId": "b7bb7579-64d4-4a06-aede-ca69f62c2f9c",
-  "applicationName": "gitHubSubPathsRegression",
+  "applicationName": "gitHubSubPathsRegression1",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitSubpath": "nest1",
@@ -12,14 +12,14 @@
       "name": "Editedtest_section_976848",
       "icon": "Earth",
       "pageDefinitionId": "1bd95fe0-7ad6-431a-bc44-307b857d33fc",
+      "description": "Automation Text section",
       "sections": [],
       "accessRoles": [
         "Administrator",
         "Xactly",
         "Sales Manager"
       ],
-      "privileges": null,
-      "description": "Automation Text section"
+      "privileges": null
     }
   ]
 }
