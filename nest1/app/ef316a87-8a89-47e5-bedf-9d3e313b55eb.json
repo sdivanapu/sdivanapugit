@@ -1,5 +1,5 @@
 {
-  "description": "Test automation page",
+  "description": "Automation Text page",
   "pageDefinitionId": "ef316a87-8a89-47e5-bedf-9d3e313b55eb",
   "pageSchema": {
     "properties": {},
@@ -10,6 +10,6 @@
       }
     }
   },
-  "title": "test_page_775153",
+  "title": "Editedtest_page_775153",
   "versionName": "1.0"
 }
