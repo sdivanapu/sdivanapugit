@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "f1867fe7-54d0-4fc4-9c9a-eeb490432ec4",
+  "applicationName": "gitHubSubPathsRegression",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "nest1",
+  "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
+  "icon": "LogoIconOnlyCreditAssignmentComponent",
+  "sections": []
+}
