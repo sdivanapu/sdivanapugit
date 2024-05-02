@@ -1,4 +1,6 @@
 {
   "application": "app/Application.json",
-  "pageDefinitions": []
+  "pageDefinitions": [
+    "app/db479f21-efd8-445c-9178-4a61fcd16ead.json"
+  ]
 }
