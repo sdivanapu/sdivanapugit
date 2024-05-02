@@ -7,5 +7,14 @@
   "gitSubpath": "nest1",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyCreditAssignmentComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "test_section_337296",
+      "icon": "Relationships",
+      "pageDefinitionId": "e848431a-b267-4cd8-b444-eeb6cb27c440",
+      "sections": []
+    }
+  ]
 }
