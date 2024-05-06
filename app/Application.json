@@ -6,5 +6,14 @@
   "defaultBranch": "main",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyCommissionExpenseAccountingComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "test_section_063830",
+      "icon": "Snapshot",
+      "pageDefinitionId": "a5d93a14-12a2-4711-83e4-0e55182b6e87",
+      "sections": []
+    }
+  ]
 }

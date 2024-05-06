@@ -1,0 +1,15 @@
+{
+  "description": "Test automation page",
+  "pageDefinitionId": "a5d93a14-12a2-4711-83e4-0e55182b6e87",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "test_page_463271",
+  "versionName": "1.0"
+}
