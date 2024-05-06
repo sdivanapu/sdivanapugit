@@ -7,19 +7,5 @@
   "gitSubpath": "nest1",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyCreditAssignmentComponent",
-  "sections": [
-    {
-      "name": "Editedtest_section_864732",
-      "icon": "Earth",
-      "pageDefinitionId": "0ca070e0-182e-46b4-9c6e-82f2c6a8e359",
-      "sections": [],
-      "accessRoles": [
-        "Administrator",
-        "Xactly",
-        "Sales Manager"
-      ],
-      "privileges": null,
-      "description": "Automation Text section"
-    }
-  ]
+  "sections": []
 }
