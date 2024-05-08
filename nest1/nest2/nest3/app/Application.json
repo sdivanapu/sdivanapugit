@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "757efa1d-6772-4543-b949-6c2f15ffc1c8",
+  "applicationName": "nestedSubPathsRegression",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "nest1/nest2/nest3",
+  "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
+  "icon": "LogoIconOnlyEdocsAndApprovalsComponent",
+  "sections": []
+}
