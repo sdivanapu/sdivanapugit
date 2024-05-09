@@ -6,7 +6,194 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "list",
+            "controlId": "b347522a-c05e-41a6-b73c-d7ce2e0f3d01",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "b347522a-c05e-41a6-b73c-d7ce2e0f3d01",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "xc_unit_type",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "unit_type_id",
+                "name": "unit_type_id",
+                "headerName": "unit_type_id",
+                "dataType": "decimal",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "version",
+                "name": "version",
+                "headerName": "version",
+                "dataType": "decimal",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "name",
+                "name": "name",
+                "headerName": "name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "descr",
+                "name": "descr",
+                "headerName": "descr",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "display_symbol",
+                "name": "display_symbol",
+                "headerName": "display_symbol",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "is_active",
+                "name": "is_active",
+                "headerName": "is_active",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "created_date",
+                "name": "created_date",
+                "headerName": "created_date",
+                "dataType": "offset_date_time",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "created_by_id",
+                "name": "created_by_id",
+                "headerName": "created_by_id",
+                "dataType": "decimal",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "created_by_name",
+                "name": "created_by_name",
+                "headerName": "created_by_name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "modified_date",
+                "name": "modified_date",
+                "headerName": "modified_date",
+                "dataType": "offset_date_time",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "modified_by_id",
+                "name": "modified_by_id",
+                "headerName": "modified_by_id",
+                "dataType": "decimal",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "modified_by_name",
+                "name": "modified_by_name",
+                "headerName": "modified_by_name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "group_name",
+                "name": "group_name",
+                "headerName": "group_name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "group_type",
+                "name": "group_type",
+                "headerName": "group_type",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "maxHeight": null,
+            "shouldRenderHidden": false,
+            "variables": [],
+            "selectedField": "",
+            "selectedVariable": ""
+          }
+        }
       }
     }
   },
