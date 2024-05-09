@@ -9,17 +9,12 @@
   "icon": "LogoIconOnlyEdocsAndApprovalsComponent",
   "sections": [
     {
-      "name": "Editedtest_section_724065",
-      "icon": "Earth",
-      "pageDefinitionId": "0d15d627-6ab8-4ab8-9d63-57c7f8c99f1f",
-      "sections": [],
-      "accessRoles": [
-        "Administrator",
-        "Xactly",
-        "Sales Manager"
-      ],
+      "accessRoles": null,
       "privileges": null,
-      "description": "Automation Text section"
+      "name": "test_section_235638",
+      "icon": "Snapshot",
+      "pageDefinitionId": "3716e760-07c5-4b16-b927-b58d7104ed94",
+      "sections": []
     }
   ]
 }
