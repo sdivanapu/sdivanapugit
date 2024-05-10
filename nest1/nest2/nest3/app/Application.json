@@ -9,12 +9,17 @@
   "icon": "LogoIconOnlyEdocsAndApprovalsComponent",
   "sections": [
     {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "test_section_458017",
-      "icon": "Clipboard Chart",
+      "name": "Editedtest_section_458017",
+      "icon": "Earth",
       "pageDefinitionId": "7d62dacc-41af-40f3-813e-5a8aabbf5cea",
-      "sections": []
+      "sections": [],
+      "accessRoles": [
+        "Administrator",
+        "Xactly",
+        "Sales Manager"
+      ],
+      "privileges": null,
+      "description": "Automation Text section"
     }
   ]
 }
