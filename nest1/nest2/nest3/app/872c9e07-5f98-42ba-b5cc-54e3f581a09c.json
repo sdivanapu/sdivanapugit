@@ -60,6 +60,81 @@
             "labelText": "Label",
             "layoutSize": null,
             "shouldRenderHidden": false
+          },
+          "control_2": {
+            "type": "list",
+            "controlId": "d567df96-07b1-445f-bc2e-0d812d3641c4",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "d567df96-07b1-445f-bc2e-0d812d3641c4",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "demotable",
+              "type": "table",
+              "isReadOnly": false,
+              "schema": "$framework",
+              "seriesColors": {}
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [
+              {
+                "field": "name",
+                "name": "name",
+                "headerName": "name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
+            "whereClauseVariable": null,
+            "maxHeight": null,
+            "shouldRenderHidden": false,
+            "variables": [],
+            "selectedField": "",
+            "selectedVariable": ""
+          },
+          "control_3": {
+            "type": "workflowButton",
+            "controlId": "608ff6ee-1fd9-4c2a-a351-04ca45926383",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Workflow Button",
+            "xSQL": "call StartXFlow(XFlowName='demotable QUERY acd0')",
+            "workflowName": "demotable QUERY acd0",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "shouldRenderHidden": false,
+            "shouldRunSync": false
           }
         }
       }
