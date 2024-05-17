@@ -2,5 +2,22 @@
   "application": "app/Application.json",
   "pageDefinitions": [
     "app/872c9e07-5f98-42ba-b5cc-54e3f581a09c.json"
+  ],
+  "tables": {
+    "schemas": [
+      "tables/schemas/$framework/demotable.json"
+    ],
+    "data": [
+      {
+        "name": "demotable",
+        "path": "tables/data/demotable/undefined.csv"
+      }
+    ]
+  },
+  "queries": [
+    "queries/schemas/$framework/xc_unit_type.json"
+  ],
+  "workflows": [
+    "workflows/demotable QUERY acd0.json"
   ]
 }

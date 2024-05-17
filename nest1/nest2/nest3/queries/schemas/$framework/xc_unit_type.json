@@ -1,0 +1,10 @@
+{
+  "variables": [],
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "xc_unit_type",
+  "description": null,
+  "id": "7884320f3e24dfba0b2199e4dda18b87.ent7b90bff747621fd465543509e939c",
+  "xsql": "select * from xactly.xc_unit_type;",
+  "dependencies": []
+}
