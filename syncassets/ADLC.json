@@ -2,5 +2,12 @@
   "application": "app/Application.json",
   "pageDefinitions": [
     "app/e67d46e2-8e6a-4d9c-b247-1ac99b392d34.json"
+  ],
+  "queries": [
+    "queries/$framework/xc_unit_type.json",
+    "queries/$framework/demoquery.json"
+  ],
+  "workflows": [
+    "workflows/demotable QUERY acd0.json"
   ]
 }

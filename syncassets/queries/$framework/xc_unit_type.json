@@ -1,0 +1,6 @@
+{
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "xc_unit_type",
+  "xsql": "select * from xactly.xc_unit_type;"
+}

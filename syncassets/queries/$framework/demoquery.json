@@ -1,0 +1,6 @@
+{
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "demoquery",
+  "xsql": "SELECT * FROM $framework.xc_unit_type where Name='EUR';"
+}
