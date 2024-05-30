@@ -6,7 +6,27 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "workflowButton",
+            "controlId": "d6cb9f55-2cc3-4381-b9a6-18009cff4f00",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Workflow Button",
+            "xSQL": "call StartXFlow(XFlowName='demotable QUERY acd0')",
+            "workflowName": "demotable QUERY acd0",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "shouldRenderHidden": false,
+            "shouldRunSync": false
+          }
+        }
       }
     }
   },
