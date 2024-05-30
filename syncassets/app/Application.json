@@ -1,0 +1,11 @@
+{
+  "accessRoles": [],
+  "applicationId": "920f06f2-c58b-4d15-9389-0649859af53f",
+  "applicationName": "syncassetstest",
+  "applicationState": "DRAFT",
+  "defaultBranch": "main",
+  "gitSubpath": "syncassets",
+  "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
+  "icon": "LogoIconOnlyConnectComponent",
+  "sections": []
+}
