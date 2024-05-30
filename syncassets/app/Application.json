@@ -7,5 +7,14 @@
   "gitSubpath": "syncassets",
   "gitUrl": "https://github.com/sdivanapu/sdivanapugit",
   "icon": "LogoIconOnlyConnectComponent",
-  "sections": []
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "Home",
+      "icon": "Align Center",
+      "pageDefinitionId": "e67d46e2-8e6a-4d9c-b247-1ac99b392d34",
+      "sections": []
+    }
+  ]
 }
