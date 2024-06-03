@@ -7,28 +7,9 @@
       "schema": {
         "type": "object",
         "properties": {
-          "control_1": {
-            "type": "workflowButton",
-            "controlId": "d6cb9f55-2cc3-4381-b9a6-18009cff4f00",
-            "accessRoles": null,
-            "privileges": null,
-            "styles": {
-              "useComponentShadow": false,
-              "useGreyBackground": false,
-              "useInnerGreyBackground": false
-            },
-            "events": [],
-            "controlData": "Workflow Button",
-            "xSQL": "call StartXFlow(XFlowName='demotable QUERY acd0')",
-            "workflowName": "demotable QUERY acd0",
-            "layoutSize": null,
-            "buttonColorType": "primary",
-            "shouldRenderHidden": false,
-            "shouldRunSync": false
-          },
-          "control_2": {
-            "type": "dropdown",
-            "controlId": "e1100a92-88ad-4b21-95b4-7f858e24dfea",
+          "control_3": {
+            "type": "list",
+            "controlId": "4aa284ef-1a69-4747-b1ac-378ee56ac805",
             "accessRoles": null,
             "privileges": null,
             "styles": {
@@ -40,7 +21,7 @@
               {
                 "name": "$onPageLoad",
                 "eventSelection": "BIND_EVENT",
-                "id": "e1100a92-88ad-4b21-95b4-7f858e24dfea",
+                "id": "4aa284ef-1a69-4747-b1ac-378ee56ac805",
                 "handlers": [
                   "refresh"
                 ],
@@ -52,9 +33,9 @@
               }
             ],
             "datasource": {
-              "name": "demoquery",
-              "type": "view",
-              "isReadOnly": true,
+              "name": "table1",
+              "type": "table",
+              "isReadOnly": false,
               "schema": "$framework",
               "seriesColors": {}
             },
@@ -63,22 +44,84 @@
               "totalItems": null,
               "itemsPerPage": 200
             },
-            "columns": [],
+            "columns": [
+              {
+                "field": "name",
+                "name": "name",
+                "headerName": "name",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$id",
+                "name": "$id",
+                "headerName": "$id",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$version",
+                "name": "$version",
+                "headerName": "$version",
+                "dataType": "integer",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$created_by",
+                "name": "$created_by",
+                "headerName": "$created_by",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$created_instant",
+                "name": "$created_instant",
+                "headerName": "$created_instant",
+                "dataType": "instant",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$modified_by",
+                "name": "$modified_by",
+                "headerName": "$modified_by",
+                "dataType": "string",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              },
+              {
+                "field": "$modified_instant",
+                "name": "$modified_instant",
+                "headerName": "$modified_instant",
+                "dataType": "instant",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false
+              }
+            ],
             "whereClauseVariable": null,
+            "maxHeight": null,
+            "shouldRenderHidden": false,
             "variables": [],
-            "isMultiSelect": false,
-            "shouldHideLabel": false,
-            "displayField": {
-              "dataType": "string",
-              "name": "name"
-            },
-            "valueField": {
-              "dataType": "string",
-              "name": "name"
-            },
-            "labelText": "Label",
-            "layoutSize": null,
-            "shouldRenderHidden": false
+            "selectedField": "",
+            "selectedVariable": ""
           }
         }
       }
